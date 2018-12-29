@@ -1,0 +1,22 @@
+{
+  "name": "jquery-car-race",
+  "version": "1.0.0",
+  "description": "A simple race game involving jquery to calculate speed, time of a drag race between 2 cars.",
+  "main": "src/js/engine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinashsp93/jquery-car-race.git"
+  },
+  "author": "Avinash Prabhakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinashsp93/jquery-car-race/issues"
+  },
+  "homepage": "https://github.com/avinashsp93/jquery-car-race#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

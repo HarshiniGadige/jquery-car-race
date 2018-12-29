@@ -1,0 +1,110 @@
+body, html {
+    margin: 0 auto;
+    font: 12px helvetica;
+    background-color: #AA7539;
+    color: #552D00;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+#raceCourse input[type='button'] {
+    width: 100px;
+    height: 30px;
+    margin: auto 40px;
+    background: #D4A26A;
+    border: 1px solid #552D00;
+    border-radius: 3px;
+    outline: 0;
+}
+#raceCourse input[type='button']:hover {
+    cursor: pointer;
+    background-color: #552D00;
+    color: #FFF;
+}
+#raceCourse input[type='button']:active {
+    border: 2px solid #552D00;
+}
+#raceCourse input[value='Race'] {
+    float: left;
+}
+#raceCourse input[value='Reset'] {
+    float: right;
+}
+.raceTrack {
+    position: relative;
+    margin: 40px auto;
+    width: 99%;
+    height: 220px;
+    background-color: #60574E;
+    border-top: 30px dashed #ccc;
+    border-bottom: 30px dashed #ccc;
+    border-right: 10px dashed #fff;
+}
+.midLine {
+    width: 100px;
+    display: inline-block;
+    padding-right: 30px;
+    top: 45%;
+    position: absolute;
+    background-repeat: repeat-x;
+    height: 30px;
+    background-color: #fc3;
+}
+.clearfix {
+    display: table;
+    content: "",
+    clear: both;
+    height: 20px;
+}
+.raceTrack img {
+    height: 6em;
+    position: absolute;
+    transform: scaleX(-1);
+    z-index: 6;
+}
+.raceTrack img[alt='second_car'] {
+    bottom: 20px;
+}
+.raceTrack .startPoint {
+    z-index: 4;
+    font-size: 45px;
+    transform: rotate(-90deg);
+    position: absolute;
+    text-align: center;
+    top: 39%;
+    left: -3%;
+}
+.raceTrack .endPoint {
+    z-index: 4;
+    font-size: 45px;
+    transform: rotate(90deg);
+    position: absolute;
+    text-align: center;
+    top: 39%;
+    left: 85%;
+}
+.raceInfo {
+    width: 80%;
+    margin: 10px auto;
+}
+.raceInfo h3{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.raceInfo h4 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.raceInfo span {
+    font-size: 1.5rem;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.raceInfo p {
+    width: 50%;
+    float: left;
+    text-align: center;
+}

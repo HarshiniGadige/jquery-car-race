@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Car Race</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="raceCourse">
+        <h1>jQuery 1.0 Race</h1>
+        <input type="button" value="Race" id="go">
+        <input type="button" value="Reset" id="reset">
+
+        <div class="clearfix"></div>
+
+        <div class="raceTrack">
+            <div class="startPoint">
+                START
+            </div>
+            <div class="midLine"></div>
+            <div class="endPoint">
+                FINISH
+            </div>
+
+            <img src="src/img/car1.png" alt="first_car" id="car1">
+            <img src="src/img/car2.png" alt="second_car" id="car2">
+
+
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="raceInfo">
+            <h3>Results</h3>
+            <h4 id="speedClocked">High speed clocked : </h4>
+            <hr width='100%' color="#552D00">
+            <span>Black Car</span>
+            <span>White Car</span>
+            <p id="first_car"></p>
+            <p id="second_car"></p>
+        </div>
+
+    </body>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./src/js/engine.js"></script>
+</html>
